@@ -29,7 +29,7 @@ public class HelloController {
     public Map<String, String> getHello() {
         Map<String,String> hello = new HashMap<>();
         User user = userService.findByEmail("pchiradejnunt@gmail.com");
-        system.out.println("name" + user.getName());
+        System.out.println("name" + user.getName());
         hello.put("name", user.getName());
         
         
