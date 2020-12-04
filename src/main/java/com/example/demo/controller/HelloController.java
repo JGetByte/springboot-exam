@@ -34,7 +34,7 @@ public class HelloController {
         // test 1
 
         hello.put("email", user.getEmail());
-        // test 2
+        
         return hello;
     }
 }
