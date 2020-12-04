@@ -31,8 +31,6 @@ public class HelloController {
         User user = userService.findByEmail("pchiradejnunt@gmail.com");
         System.out.println("name" + user.getName());
         hello.put("name", user.getName());
-        // test 1
-
         hello.put("email", user.getEmail());
         
         return hello;
